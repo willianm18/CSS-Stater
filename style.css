@@ -1,0 +1,27 @@
+h1{
+    border: 30px green;
+    color: red;
+    margin: 0px;
+    background-color: green;
+    width: 500px;
+    font-size: 50px;
+}
+
+h2{
+    color: green;
+
+}
+
+button{
+    border: 10 green;
+    padding: 20px;
+    animation-name:inherit;
+}   
+
+.dev{
+    color: lightblue;
+}
+
+#dev1{
+    font-size: 50px;
+}

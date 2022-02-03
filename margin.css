@@ -1,0 +1,17 @@
+/*body{
+    margin: 0;
+}*/
+
+div, section{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+
+   /* margin:10px 20px 50px 31px; /*top,right,butoon, left*/
+
+   margin-bottom: 7;
+}
+section{
+    margin-top: 20px; /* em caso de ter duas margens, uma para baixo e outra pra cima, sempre irá respeitar a maior*/
+}

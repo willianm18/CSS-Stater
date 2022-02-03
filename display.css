@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    display: inline; /* Usado para mudar um block para inline*/
+}
+
+span{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    display: block; /* Usado para mudar inline para block*/
+}
+/*
+Display block
+
+Ocupa toda a lina, colocando o proximo elemento abaixo desse
+
+- width e height são respeitado
+- padding, margin e border iram funcionar normalmente
+
+-<p> <div> <section>, todos os heaginds <h1> <h2>..... são Block
+
+Display Inline
+
+Os elementos ficam ao lado do outro e não empurram outros elementos para baixo
+
+- width e height não funcionam
+- Somente valores horizontais de margin
+
+<a> <strong> <span> <em>.... são inline
+*/

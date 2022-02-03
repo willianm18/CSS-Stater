@@ -1,0 +1,17 @@
+
+
+
+div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 20px solid red; /*a borda aumenta o tamanho da box fazendo ela não respeitar o tamanho da box.*/
+    border-bottom: solid green 10px;
+    border-top: none;/* none tira a borda*/
+    border-left: red double 20px;
+
+    outline: yellow 2px solid; /*sempre informar algum estilo tanto para border que diz o lado*/
+
+    box-sizing: border-box;/* faz respeitar o tamanho da box principal*/
+
+}

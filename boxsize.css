@@ -1,0 +1,12 @@
+
+
+div{
+    width: 100px; /*Largura*/
+    height: 100px; /*Altura*/
+    border: 2px solid red; /*Borda, primeiro o tamanho da borda depois a cor*/
+    padding: 0 20px; /*preenchimento, local onde fica o conteudo, sendo o primeiro valor o local incial e o proximo a distancia da borda até o conteúdo*/
+    margin: 10px;/* margem, é onde se começa a box*/
+
+    box-sizing: border-box; /*corrige o padding que aumenta a box em 20px para cada lado, com essa função faz com que a box se mantenha no tamanho de origem, pode ser usado no incio do projeto.*/
+
+}
